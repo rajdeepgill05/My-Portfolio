@@ -1,6 +1,4 @@
-﻿@{ 
-    Layout = null;
-}
+﻿
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="~/img/ico/favicon.png">
 
-    <title>Kelvin - Bootstrap 3 Resume Theme</title>
+    <title>Rajdeep - Portfolio</title>
 
     <!-- Bootstrap core CSS -->
 
@@ -31,7 +29,7 @@
     <![endif]-->
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#nav">
+<body data-spy="scroll" data-offset="64" data-target="#section-topbar">
 
     <div id="section-topbar">
         <div id="topbar-inner">
@@ -39,20 +37,26 @@
                 <div class="row">
                     <div class="dropdown">
                         <ul id="nav" class="nav">
-                            <li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
-                            <li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
-                            <li class="menu-item"><a class="smoothScroll" href="#portfolio" title="Portfolio"><i class="icon-briefcase"></i></a></li>
-                            <li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-                        </ul><!--/ uL#nav -->
-                    </div><!-- /.dropdown -->
+                            <li class="menu-item"><a class="smothscroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+                            <li class="menu-item"><a class="smothscroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+                            <li class="menu-item"><a class="smothscroll" href="#portfolio" title="Portfolio"><i class="icon-briefcase"></i></a></li>
+                            <li class="menu-item"><a class="smothscroll" href="#footwrap" title="Contact"><i class="icon-envelope"></i></a></li>
+                        </ul>
+                        <!--/ uL#nav -->
+                    </div>
+                    <!-- /.dropdown -->
 
                     <div class="clear"></div>
-                </div><!--/.row -->
-            </div><!--/.container -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/.container -->
 
             <div class="clear"></div>
-        </div><!--/ #topbar-inner -->
-    </div><!--/ #section-topbar -->
+        </div>
+        <!--/ #topbar-inner -->
+    </div>
+    <!--/ #section-topbar -->
 
     <div id="headerwrap">
         <div class="container">
@@ -60,10 +64,14 @@
                 <div class="col-lg-12">
                     <h1>Rajdeep Gill</h1>
                     <h3>Web Designer | rajdeepgill9998@gmail.com</h3>
-                </div><!--/.col-lg-12 -->
-            </div><!--/.row -->
-        </div><!--/.container -->
-    </div><!--/.#headerwrap -->
+                </div>
+                <!--/.col-lg-12 -->
+            </div>
+            <!--/.row -->
+        </div>
+        <!--/.container -->
+    </div>
+    <!--/.#headerwrap -->
 
     <div id="about">
         <div class="container">
@@ -121,7 +129,7 @@
             <hr>
         </div><!--/.container -->
     </section>
-  
+
     <!--WORK DESCRIPTION -->
     <div id="works" class="container desc">
         <div class="row">
@@ -154,7 +162,6 @@
         <br>
         <hr>
     </div><!--/.container -->
-  
     <!--AWARDS DESCRIPTION -->
     <div id="awards" class="container desc">
         <div class="row">
@@ -185,7 +192,6 @@
         </div><!--/.row -->
         <br>
     </div><!--/.container -->
-    
     <!--SKILLS DESCRIPTION -->
     <div id="skillswrap">
         <div class="container">
@@ -307,7 +313,6 @@
             <br>
         </div><!--/.container -->
     </div><!--/ #skillswrap -->
-  
     <!--PORTFOLIO DESCRIPTION -->
     <div id="portfolio" class="container desc">
         <div class="row">
@@ -328,7 +333,11 @@
             </div>
 
             <div class="col-lg-6 col-lg-offset-3">
-                <p><img class="img-responsive" src="~/img/port02.jpg" alt=""></p>
+                <p>
+                    <a href="work01.html" data-toggle="modal" data-target="#myModal">
+                        <img class="img-responsive" src="~/img/port02.jpg" alt="">
+                    </a>
+                </p>
             </div>
             <div class="col-lg-3">
                 <p>SANKEY</p>
@@ -357,30 +366,39 @@
         <br>
         <br>
     </div><!--/.container -->
-
-    <div id="contact">
+    <!--FOOTER DESCRIPTION -->
+    <div id="footwrap">
         <div class="container">
             <div class="row">
 
                 <div class="col-lg-2 col-lg-offset-1">
                     <h5>CONTACT</h5>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <p>
                         <t>Email</t><br />
-                        william@blacktie.co <br />
+                        rajdeepgill9998@gmail.com<br />
                     </p>
                     <p>
                         <t>Adress</t><br />
-                        Some Ave. 987 <br />
-                        Postal 23892 <br />
-                        London, England. <br />
+                        22 Singh Trail <br />
+                        Postal R2R-2X3 <br />
+                        Winnipeg, MB. <br />
                     </p>
                     <p>
                         <t>Phone</t><br />
-                        +55 8933-2383 <br />
+                        +1-431-388-3933 <br />
+                    </p>
+                    <p>
+                        <t>Social Links</t><br />
+                        <a href="#"><i class="icon-dribbble"></i></a>
+                        <a href="#"><i class="icon-twitter"></i></a>
+                        <a href="#"><i class="icon-facebook"></i></a>
+                        <a href="#"><i class="icon-linkedin"></i></a>
+                        <a href="#"><i class="icon-apple"></i></a>
                     </p>
                 </div>
+
                 <div class="col-lg-6">
                     <p>
                         <sm>CONTACT FORM</sm>
@@ -420,23 +438,150 @@
                     </form>
 
                 </div>
+
+
+            </div><!--/.row -->
+        </div><!--/.container -->
+    </div><!--/ #footer -->
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <h2>Dynamic Tabs</h2>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#Math">Math</a></li>
+                        <li><a data-toggle="tab" href="#Fizzbuzz">FizzBuzz</a></li>
+                        <li><a data-toggle="tab" href="#Factorial">Factorial</a></li>
+                        <li><a data-toggle="tab" href="#Palindrome">Palindrome</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="Math" class="tab-pane fade in active">
+                            <h3>Math</h3>
+                            <p>Some Math Content</p>
+                            <div class="row">
+                                <div class="col-md-12">Please Enter 5 numbers</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-6">Enter Number 1:</div>
+                                        <div class="col-md-6"></div>
+                                        <input id="num1" type="number" name="name" value="" />
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">Enter Number 2:</div>
+                                        <div class="col-md-6"></div>
+                                        <input id="num2" type="number" name="name" value="" />
+                                    </div><div class="row">
+                                        <div class="col-md-6">Enter Number 3:</div>
+                                        <div class="col-md-6"></div>
+                                        <input id="num3" type="number" name="name" value="" />
+                                    </div><div class="row">
+                                        <div class="col-md-6">Enter Number 4:</div>
+                                        <div class="col-md-6"></div>
+                                        <input id="num4" type="number" name="name" value="" />
+                                    </div><div class="row">
+                                        <div class="col-md-6">Enter Number 5:</div>
+                                        <div class="col-md-6"></div>
+                                        <input id="num5" type="number" name="name" value="" />
+                                    </div>
+                                    <button id="btn">Calculate</button>
+                                </div>
+                                <div class="col-md-5">
+                                    <div id="sum"></div>
+                                    <div id="product"></div>
+                                    <div id="average"></div>
+                                    <div id="largest"></div>
+                                    <div id="smallest"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="Fizzbuzz" class="tab-pane fade">
+                            <h3>FizzBuzz</h3>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-6"> Please enter num1</div>
+                                        <div class="col-md-6"><input id="number1" type="number" name="name" value="" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">  Please enter num2 </div>
+                                        <div class="col-md-6">
+                                            <input id="number2" type="number" name="name" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button id="btn1"> Calculate</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div id="fizzbuzz"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Factorial" class="tab-pane fade">
+                            <h3>Factorial</h3>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-6">Please enter a number</div>
+                                        <div class="col-md-6">
+                                            <input id="num" type="number" name="name" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button id="btnfact">Calculate</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5">
+                                    <div id="factorial"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Palindrome" class="tab-pane fade">
+                            <h3>Palindrome</h3>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-6">Please enter a word</div>
+                                        <div class="col-md-6">
+                                            <input id="sometext" type="text" name="name" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button id="btn3">Check it</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div id="palindrome"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
             </div>
-            <!--/.row -->
         </div>
-
     </div>
 
-    <div class="col-lg-3">
-        <p><sm>SOCIAL LINKS</sm></p>
-        <p>
-            <a href="#"><i class="icon-dribbble"></i></a>
-            <a href="#"><i class="icon-twitter"></i></a>
-            <a href="#"><i class="icon-facebook"></i></a>
-            <a href="#"><i class="icon-linkedin"></i></a>
-            <a href="#"><i class="icon-apple"></i></a>
-
-        </p>
-    </div>
 
     <div id="c">
         <div class="container">
@@ -456,5 +601,7 @@
 
     <script src="~/Scripts/easing.js"></script>
     <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/Chart.js"></script>
+    <script src="~/Scripts/easing.min.js"></script>
 </body>
 </html>

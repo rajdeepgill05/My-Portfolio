@@ -226,7 +226,7 @@ a:after {
 }
 
 #footwrap h5 {
-	color: white;
+	color: black;
 }
 
 
@@ -236,20 +236,12 @@ a:after {
 
 #footwrap i {
 	padding-right: 8px;
-	color: #1abc9c;
+	color: black;
 }
 
 /* Copyright Wrap */
 
-#c {
-	background: #222222;
-	padding-top: 15px;
-	text-align: right;
-}
 
-#c p {
-	color: white
-}
 
 
 

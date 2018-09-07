@@ -212,7 +212,7 @@ SECTION WRAPS
 }
 
 #skillswrap h5, p {
-  color: white;
+  color: black;
 }
 
 #footwrap {
@@ -352,3 +352,13 @@ sm {
   font-weight: 600;
   margin: 15px 0;
 }
+
+#c {
+    background: #222222;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+    #c p {
+        color: white
+    }

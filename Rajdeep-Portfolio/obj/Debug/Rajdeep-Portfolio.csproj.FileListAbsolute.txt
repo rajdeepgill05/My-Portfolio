@@ -88,3 +88,4 @@ C:\Users\SD13\Desktop\MY portfolio\Rajdeep-Portfolio\Rajdeep-Portfolio\obj\Debug
 C:\Users\SD13\Desktop\MY portfolio\Rajdeep-Portfolio\Rajdeep-Portfolio\obj\Debug\Rajdeep-Portfolio.csproj.CopyComplete
 C:\Users\SD13\Desktop\MY portfolio\Rajdeep-Portfolio\Rajdeep-Portfolio\obj\Debug\Rajdeep-Portfolio.dll
 C:\Users\SD13\Desktop\MY portfolio\Rajdeep-Portfolio\Rajdeep-Portfolio\obj\Debug\Rajdeep-Portfolio.pdb
+C:\Users\SD13\Desktop\MY portfolio\Rajdeep-Portfolio\Rajdeep-Portfolio\obj\Debug\Rajdeep-Portfolio.csprojAssemblyReference.cache
