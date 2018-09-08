@@ -167,6 +167,7 @@
     <Content Include="font\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\empty.png" />
     <Content Include="img\header-bg.jpg" />
     <Content Include="img\icons\icon_behance.png" />
     <Content Include="img\icons\icon_dribbble.png" />
@@ -179,6 +180,8 @@
     <Content Include="img\icons\icon_testimonials.png" />
     <Content Include="img\icons\icon_twitter.png" />
     <Content Include="img\icons\icon_works.png" />
+    <Content Include="img\backg.jpg" />
+    <Content Include="img\js-logo.png" />
     <Content Include="img\port01.jpg" />
     <Content Include="img\port02.jpg" />
     <Content Include="img\port03.jpg" />
@@ -198,6 +201,7 @@
     <Content Include="font\fontawesome-webfont-v=3.2.1.eot" />
     <Content Include="font\fontawesome-webfont-v=3.2.1.ttf" />
     <Content Include="font\fontawesome-webfont-v=3.2.1.woff" />
+    <Content Include="img\rajdeep-gill.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\Chart.js" />
     <Content Include="Scripts\easing.js" />

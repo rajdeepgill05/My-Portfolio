@@ -156,7 +156,7 @@ SECTION WRAPS
 /* Header Wrap */
 
 #headerwrap {
-  background: url(../img/header-bg.jpg) no-repeat center top;
+  background: url(../img/backg.jpg) no-repeat center top;
   margin-top: 60px;
   padding-top: 140px;
   text-align: center;
@@ -186,11 +186,16 @@ SECTION WRAPS
 
 /* Intnro Wrap */
 
-#intro {
+#intro  {
   background: #2c3e50;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
+}
+
+#about , #about h5 {
+    background: #2c3e50;
+    color: white;
 }
 
 #intro h5, p {
@@ -212,7 +217,7 @@ SECTION WRAPS
 }
 
 #skillswrap h5, p {
-  color: black;
+  color: white;
 }
 
 #footwrap {

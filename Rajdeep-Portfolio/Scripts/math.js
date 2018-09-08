@@ -7,7 +7,7 @@
 
     var sum = num1 + num2 + num3 + num4 + num5;
     var product = num1 * num2 * num3 * num4 * num5;
-    var average = (num1 + num2 + num3 + num4 + num5) / 2;
+    var average = ((num1 + num2 + num3 + num4 + num5) / 5);
     var largest = (Math.max(num1, num2, num3, num4, num5));
     var smallest = (Math.min(num1, num2, num3, num4, num5))
 
